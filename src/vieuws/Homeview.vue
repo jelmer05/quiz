@@ -17,7 +17,7 @@ watch(search, () => {
   <header>
     <div class="row justify-content-around">
       <div class="col-sm-5">
-        <h1 @click="search = ''">Quizes</h1>
+        <h1 @click="search = ''">Quizes jelmer</h1>
       </div>
       <div class="col-sm-5 justify-content-center d-flex">
         <input v-model.trim="search" type="text" placeholder="zoek..." />
