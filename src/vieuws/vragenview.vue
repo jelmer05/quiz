@@ -51,7 +51,7 @@ const barprocent = computed(() => {
 </script>
 
 <template>
-  <vraagHeader :statusVraag="statusVraag" :barprocent="ba       rprocent" />
+  <vraagHeader :statusVraag="statusVraag" :barprocent="barprocent" />
   <div>
     <vraag
       v-if="!showResults"
